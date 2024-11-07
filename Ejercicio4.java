@@ -9,7 +9,7 @@ public class Ejercicio4 {
             }else{
                 numerofinal[i]=numero2[i];
             }
-            System.out.println("El número mas grande es"+numerofinal[i]);
+            System.out.println("El número mas grande es: "+numerofinal[i]);
         }
         
     }
