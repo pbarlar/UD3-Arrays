@@ -7,7 +7,6 @@ public class Ejercicio6 {
         int numalumnos=entrada.nextInt();
         int notas[]=new int[numalumnos];
         int notatotal=0;
-        int f=0;
         for (int i=0;i < numalumnos;i++){
             System.out.print("Dime la nota del alumno nº"+(i+1)+": ");
             notas[i]=entrada.nextInt();
