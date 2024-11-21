@@ -6,18 +6,19 @@ public class Ejercicio12 {
         int sumafila=0;
         for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num[i].length; j++) {
-                num[i][j]=(int)(Math.random()*90+10);
+                num[i][j]=(int)(Math.random()*5);
                 total=total+num[i][j];
             }
         }
 
         for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num[i].length; j++) {
-                System.out.print(+num[i][j]+" ");
+                System.out.printf("%3d",num[i][j]);
                 sumafila=sumafila+num[i][j];
             }
             
-            System.out.println(sumafila);
+            System.out.printf("%3d",sumafila);
+            System.out.println();
             sumafila=0;
             
         }
@@ -27,9 +28,9 @@ public class Ejercicio12 {
                 sumacolumna+=num[j][i];
                 
             }
-            System.out.print(sumacolumna+" ");
+            System.out.printf("%3d ",sumacolumna);
             sumacolumna=0;
         }
-        System.out.println(+total);
+        System.out.printf("%3d",total);
     }   
 }
