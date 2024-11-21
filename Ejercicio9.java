@@ -10,7 +10,7 @@ public class Ejercicio9 {
                 for (j = 0; j < numeros.length; j++) {
                     int numj=numeros[j];
                     int numi=numeros[i];
-                    numeros[j]=numeros[i];
+                    numeros[j]=numi;
                     numeros[i]=numj;
                 }
             }

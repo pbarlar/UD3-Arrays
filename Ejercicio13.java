@@ -13,8 +13,8 @@ public class Ejercicio13 {
 
         for (int i = 0; i < altura.length; i++) {
             System.out.print(pais[i]+": ");
-            maximos[i]=altura[i][1];
-            minimos[i]=altura[i][1];
+            maximos[i]=altura[i][0];
+            minimos[i]=altura[i][0];
             for (int j = 0; j < altura[i].length; j++) {
                 if (altura[i][j]>maximos[i]) {
                     maximos[i]=altura[i][j];
