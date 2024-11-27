@@ -1,6 +1,6 @@
 public class Ejercicio13 {
     public static void main(String[] args) {
-        String[] pais={"España","Rusia","Japon","Australia"};
+        String[] pais={"España:","Rusia:","Japon:","Australia:"};
         int[][] altura=new int[4][10];
         int[] minimos={0,0,0,0};
         int[] maximos={0,0,0,0};
@@ -12,7 +12,7 @@ public class Ejercicio13 {
         }
 
         for (int i = 0; i < altura.length; i++) {
-            System.out.print(pais[i]+": ");
+            System.out.printf("%10s ",pais[i]);
             maximos[i]=altura[i][0];
             minimos[i]=altura[i][0];
             for (int j = 0; j < altura[i].length; j++) {

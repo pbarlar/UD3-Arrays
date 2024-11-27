@@ -13,11 +13,11 @@ public class Ejercicio12 {
 
         for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num[i].length; j++) {
-                System.out.printf("%3d",num[i][j]);
+                System.out.printf("%-3d",num[i][j]);
                 sumafila=sumafila+num[i][j];
             }
             
-            System.out.printf("%3d",sumafila);
+            System.out.printf("%-3d",sumafila);
             System.out.println();
             sumafila=0;
             
@@ -28,9 +28,9 @@ public class Ejercicio12 {
                 sumacolumna+=num[j][i];
                 
             }
-            System.out.printf("%3d ",sumacolumna);
+            System.out.printf("%-2d ",sumacolumna);
             sumacolumna=0;
         }
-        System.out.printf("%3d",total);
+        System.out.printf("%-3d",total);
     }   
 }
